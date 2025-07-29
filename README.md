@@ -22,7 +22,9 @@ An AI-powered chat platform for writing, testing, and explaining code collaborat
 
 ✅ As an alternative, you can start Redis inside WSL/Ubuntu with:
 
+```bash
 sudo service redis-server start
+```
 
 This is helpful especially if Redis is not available or unstable on your native Windows environment.
 
