@@ -1,0 +1,16 @@
+# ------------------ Server Configuration ------------------
+PORT=8080
+
+# ------------------ Database ------------------
+MONGODB_URI=mongodb://localhost:27017/your-db-name
+
+# ------------------ Authentication ------------------
+JWT_SECRET=your_jwt_secret_key_here
+
+# ------------------ Redis (for sessions or caching) ------------------
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=your_redis_password_if_any
+
+# ------------------ AI Integration (Gemini) ------------------
+GOOGLE_AI_KEY=your_google_gemini_api_key_here
