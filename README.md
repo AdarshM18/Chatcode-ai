@@ -18,6 +18,14 @@ An AI-powered chat platform for writing, testing, and explaining code collaborat
 
 ## 🛠️ Setup Instructions
 
+💡 Note: If you encounter Redis-related errors like connect ECONNREFUSED 127.0.0.1:6379, it's likely because Redis isn't running on your Windows machine.
+
+✅ As an alternative, you can start Redis inside WSL/Ubuntu with:
+
+sudo service redis-server start
+
+This is helpful especially if Redis is not available or unstable on your native Windows environment.
+
 ```bash
 # Clone the repository
 git clone https://github.com/AdarshM18/Chatcode-ai.git
